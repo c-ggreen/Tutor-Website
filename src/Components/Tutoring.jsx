@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Typography } from "@material-ui/core";
 
-function Tutoring(props) {
+function Tutoring() {
   return (
     <Container
       maxWidth="lg"

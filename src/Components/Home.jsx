@@ -4,11 +4,15 @@ import bees from "../Images/bees2.jpg";
 
 function Home() {
   return (
-    <Container maxWidth="lg" style={{ marginTop: "5%" }}>
-      <Grid container justifyContent="center" alignItems="center">
-        <img src={bees} alt="" style={{ zIndex: "-1" }} />
-      </Grid>
-    </Container>
+    <div>
+
+    {/* <Container maxWidth="lg" style={{ marginTop: "5%" }} > */}
+      {/* <Grid container justifyContent="center" alignItems="center"> */}
+        <img src={bees} alt="" className="homeImg"/>
+      {/* </Grid> */}
+        <h1  style={{zIndex:"1"}}>Home</h1>
+    {/* </Container> */}
+    </div>
   );
 }
 
